@@ -1,11 +1,12 @@
 import React from 'react';
+import Navbar from "./components/Navbar";
+import "./App.css"; 
 import Inicio from './pages/Inicio';
-import './App.css';
-
 
 function App() {
   return (
-    <div className="FAAMA">
+    <div className="App">
+      <Navbar /> 
       <Inicio />
     </div>
   );

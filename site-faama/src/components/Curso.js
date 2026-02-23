@@ -2,8 +2,8 @@ import React from 'react';
 import '../styles/Curso.css';
 import educacaoImagem from '../Assets/Group 62.png';
 import fotoAluna from '../Assets/Ellipse 1.png';
-import seta from '../Assets/weui_arrow-filled.png';
 import img1 from '../Assets/Group 53.png';
+import seta from '../Assets/weui_arrow-filled.png';
 import img2 from '../Assets/Group 56.png';
 import img3 from '../Assets/Group 55.png';
 import img4 from '../Assets/Group 57.png';
@@ -45,8 +45,8 @@ const Curso = () => {
               elit, vitae laoreet odio diam sit amet massa. Nulla non
               tristique augue, nec maximus quam"</p>
               <p>Maria, aluna de Enfermagem</p>
-          <button className='proxima-pagina' onClick={() => console.log("Clicou!")}>
-            <img src={seta} alt="Próxima página" />
+          <button className='proxima-pagina'>
+            <img src={seta} alt="proxima página"/>
           </button>
           </div>
           
