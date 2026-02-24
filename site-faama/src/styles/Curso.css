@@ -1,84 +1,50 @@
+.container {
+  background-color: #1a3c34;
+  min-height: 100vh;         
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  gap: 70px;
+}
+
 .container-cursos {
   display: flex;
   justify-content: center;
-  align-items: center; 
-  width: 100%;
-  min-height: 800px; 
+  align-items: center;
+  height: 650px; 
   background-color: #1a3c34; 
-  padding: 160px 0 80px 0; 
-  position: relative;
-  padding: 180px 0 80px 0;
-  flex-direction: column; 
-  justify-content: flex-start;
-  gap: 250px; 
+  gap: 30px;
 }
 
-.curso-secao {
-  position: absolute;
-  top: 30px; 
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 999;       
-  color: white;
-  font-size: 3.5rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-.card-curso {
+.card {
   width: 300px;
-  height: 470px;
-  border-radius: 30px;
+  height: 700px;
+  border-radius: 25px;
   background-size: cover;
   background-position: center;
-  display: flex;
-  align-items: flex-end;
-  padding: 20px;
-  position: relative;
-  overflow: hidden;
-  background-color: white; 
+  background-repeat: no-repeat;
+  gap: 70px;
 }
 
-.grupo-cards {
-  display: flex;
-  flex-direction: row; 
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  width: 100%;
-}
-.card-curso::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-   background: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.8) 100%);
-  z-index: 1;
-}
+.card-direito { background-image: url('../Assets/Group\ 53.png'); }
+.card-teologia { background-image: url('../Assets/Group\ 54.png'); }
+.card-ads { background-image: url('../Assets/Group\ 55.png'); }
+.card-pedagogia { background-image: url('../Assets/Group\ 56.png'); }
+.card-psicologia { background-image: url('../Assets/Group\ 57.png'); }
 
 .cima { 
-align-self: flex-start;
-transform: translateY(-40px);
-}
-.baixo { 
-align-self: flex-end;
-transform: translateY(40px);
+  align-self: flex-start;
+  transform: translateY(40px);
 }
 
-.card-curso strong {
-  color: white;
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 0.9;
-  z-index: 2; 
-  width: min-content;
-  text-transform: uppercase;
+.baixo { 
+  align-self: flex-end;
+  transform: translateY(-40px);
 }
 
 .educacao-container {
+  margin-top: 80px;
   width: 100%;             
   display: flex;
   justify-content: center; 
@@ -86,6 +52,7 @@ transform: translateY(40px);
   position: relative;
   margin-bottom: 0; 
   line-height: 0; 
+  gap: 70px;
 }
 
 .imagem-educacao {
@@ -95,6 +62,7 @@ transform: translateY(40px);
   display: block;
   border-radius: 30px;
   margin-bottom: 0;
+  margin-top: 80px;
 }
 
 .botao-saiba-mais {
@@ -135,8 +103,8 @@ transform: translateY(40px);
   padding: 0;
   color: #FFFFFF !important;
   font-size: 2.1rem;
-  margin-top: -80px;
-  gap: 30px;
+  margin-top: 80px;
+  gap: 70px;
 }
 
 .faama-container p {
