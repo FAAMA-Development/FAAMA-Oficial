@@ -19,12 +19,12 @@ function Navbar() {
         </div>
       </nav>
 
-      <section className="navbar-content">
+      {/* <section className="navbar-content">
         <div className="navbar-titulo">
           <h1>onde tudo faz sentido.</h1>
           <p>FAAMA - Faculdade Adventistada da Amazônia</p>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

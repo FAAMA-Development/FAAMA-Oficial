@@ -9,6 +9,12 @@ import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 function Banner() {
   return (
     <>
+    <section className="banner-content">
+        <div className="banner-titulo">
+          <h1>onde tudo faz sentido.</h1>
+          <p>FAAMA - Faculdade Adventistada da Amazônia</p>
+        </div>
+      </section>
       <section className="banner-container">
         <div className="quadrado lateral-sombra"></div>
           <img src={minhaImagem} alt="Destaque" className="imagem-estudante"/>

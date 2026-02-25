@@ -1,139 +1,35 @@
 .container {
-  background-color: #1a3c34;
-  min-height: 100vh;         
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 50px 0;
-  gap: 70px;
-}
-
-.container-cursos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 650px; 
-  background-color: #1a3c34; 
-  gap: 30px;
-}
-
-.card {
-  width: 300px;
-  height: 700px;
-  border-radius: 25px;
+  height: 100vh;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), transparent 50%), 
+    linear-gradient(to bottom, transparent 50%, #1a3c34 100%),
+    url("../Assets/Rectangle\ 17\ \(2\).png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  gap: 70px;
-}
-
-.card-direito { background-image: url('../Assets/Group\ 53.png'); }
-.card-teologia { background-image: url('../Assets/Group\ 54.png'); }
-.card-ads { background-image: url('../Assets/Group\ 55.png'); }
-.card-pedagogia { background-image: url('../Assets/Group\ 56.png'); }
-.card-psicologia { background-image: url('../Assets/Group\ 57.png'); }
-
-.cima { 
-  align-self: flex-start;
-  transform: translateY(40px);
-}
-
-.baixo { 
-  align-self: flex-end;
-  transform: translateY(-40px);
-}
-
-.educacao-container {
-  margin-top: 80px;
-  width: 100%;             
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  position: relative;
-  margin-bottom: 0; 
-  line-height: 0; 
-  gap: 70px;
-}
-
-.imagem-educacao {
-  width: 90vw; 
-  max-width: 1500px;
-  height: auto;     
-  display: block;
-  border-radius: 30px;
-  margin-bottom: 0;
-  margin-top: 80px;
-}
-
-.botao-saiba-mais {
-  position: absolute;
-  bottom: 3%; 
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF !important;  
-  font-weight: 900 !important; 
-  font-size: 1.1rem;
-  text-transform: lowercase;    
-  letter-spacing: 0.5px;        
-  background-color: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 2px solid #FFFFFF;
-  padding: 19px 75px;
-  border-radius: 25px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.3s ease;
+  margin: 0;
+  padding: 0;
 }
 
-.botao-saiba-mais:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  transform: translateX(-50%) scale(1.02);
-}
-
-.faama-container {
+.imagem-curso {  
+  text-align: center;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0;
-  color: #FFFFFF !important;
-  font-size: 2.1rem;
-  margin-top: 80px;
-  gap: 70px;
+  align-items: center; 
+  gap: 20px;
 }
 
-.faama-container p {
-  color: #FFFFFF !important;
-  font-weight: 900 !important; 
-  font-size: 2.1rem;
-  max-width: 1000px; 
-  line-height: 1.6; 
-  margin-top: 0;
-  white-space: normal;   
-  word-wrap: break-word;
-
+.container h1 {
+  font-size: 77px;
+  margin-bottom: 12px;
 }
 
-.proxima-pagina {
-  background: none;     
-  border: none;         
-  padding: 0;       
-  cursor: pointer;  
-  display: inline-flex; 
-  align-items: center;
+.container p {
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
 }
 
-.proxima-pagina img {
-  width: 80px;          
-  height: auto;         
-  display: block;
-}
-
-.proxima-pagina:hover {
-  opacity: 0.7;
-}
