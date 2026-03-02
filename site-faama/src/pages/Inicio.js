@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import Banner from "../components/Banner";
-import educacaoImagem from '../Assets/Group 62.png';
-import fotoAluna from '../Assets/Ellipse 1.png';
-import seta from '../Assets/weui_arrow-filled.png';
+import educacaoImagem from '../assets/Group 62.png';
+import fotoAluna from '../assets/Ellipse 1.png';
+import seta from '../assets/weui_arrow-filled.png';
 import "../styles/Inicio.css";
 
 function Inicio() {

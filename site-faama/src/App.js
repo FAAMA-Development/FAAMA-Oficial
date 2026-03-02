@@ -7,11 +7,13 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <Navbar /> 
-      <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/Curso" element={<Curso />} />
-      </Routes>
+    <Navbar /> 
+      <div className="content-container">
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+            <Route path="/cursos" element={<Curso />} />        
+        </Routes>
+      </div>
     </Router>
   );
 }

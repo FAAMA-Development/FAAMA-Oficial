@@ -27,11 +27,11 @@
   gap: 70px;
 }
 
-.card-direito { background-image: url('../Assets/Group\ 53.png'); }
-.card-teologia { background-image: url('../Assets/Group\ 54.png'); }
-.card-ads { background-image: url('../Assets/Group\ 55.png'); }
-.card-pedagogia { background-image: url('../Assets/Group\ 56.png'); }
-.card-psicologia { background-image: url('../Assets/Group\ 57.png'); }
+.card-direito { background-image: url('../assets/Group\ 53.png'); }
+.card-teologia { background-image: url('../assets/Group\ 54.png'); }
+.card-ads { background-image: url('../assets/Group\ 55.png'); }
+.card-pedagogia { background-image: url('../assets/Group\ 56.png'); }
+.card-psicologia { background-image: url('../assets/Group\ 57.png'); }
 
 .cima { 
   align-self: flex-start;
