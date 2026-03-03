@@ -1,17 +1,17 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from "./components/Navbar";
-import Inicio from './pages/Inicio';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import "./App.css";
+import Navbar from "./Components/Navbar";
 import Curso from './pages/Curso';
-import "./App.css"; 
+import Inicio from './pages/Inicio';
 
 function App() {
   return (
     <Router>
-    <Navbar /> 
+      <Navbar />
       <div className="content-container">
         <Routes>
           <Route path="/" element={<Inicio />} />
-            <Route path="/cursos" element={<Curso />} />        
+          <Route path="/cursos" element={<Curso />} />
         </Routes>
       </div>
     </Router>
